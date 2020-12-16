@@ -1,5 +1,33 @@
 .forumTextContainer{
     margin-top: 84px;
-    margin-left: 97px;
     margin-bottom: 56px;
+
+    .groupHeaderText{
+        // font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 35px;
+        display: flex;
+        align-items: flex-end;
+        color: #5C5B5B;
+    }
+
+    .groupDescription{
+        margin-top: 9px;
+        // font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        display: flex;
+        align-items: flex-end;
+        color: #8F8F8F;
+    }
+
+}
+
+.navBarContainer{
+    margin-top: 207px;
+    margin-left: 115px;
 }

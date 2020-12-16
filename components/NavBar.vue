@@ -1,5 +1,5 @@
 <template>
-    <div></div>
+    <div>Here should be navbar</div>
 </template>
 <script lang="ts">
 import Vue from 'vue'
