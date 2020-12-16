@@ -1,0 +1,8 @@
+@import "parts/index";
+@import "pages/index";
+
+.mainContent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
