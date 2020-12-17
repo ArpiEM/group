@@ -1,3 +1,23 @@
+<!-- <template>
+    <div>
+        <div class="searchBoxContainer">
+            <input class="searchInput" placeholder="Поиск"/>
+            <img class="searchIcon" src="@/assets/icons/searchIcon.svg">
+        </div>
+        <ForumTable/>
+    </div>
+</template>
+<script lang="ts">
+import Vue from 'vue';
+import NavBar from '@/components/NavBar.vue';
+import ForumTable from '@/components/NavBarPages/Forum/ForumTable.vue'
+export default Vue.extend({
+    components: {
+        NavBar,
+        ForumTable
+    }
+})
+</script> -->
 <template>
     <div>
         <Header></Header>
@@ -9,6 +29,13 @@
                     <div class="groupDescription">Расскажем, как научиться, в сообщениях группы.</div>
                 </div>
                 <NavBar/>
+                <div>
+                    <div class="searchBoxContainer">
+                        <input class="searchInput" placeholder="Поиск"/>
+                        <img class="searchIcon" src="@/assets/icons/searchIcon.svg">
+                    </div>
+                    <ForumTable/>
+                </div>
             </div>
             <RightSection />
         </div>
@@ -29,7 +56,6 @@ export default Vue.extend({
         Header,
         SideBar,
         RightSection,
-        Forum
     }
 })
 </script>

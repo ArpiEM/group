@@ -83,7 +83,7 @@
                  </div>
                  <div>
                     <div class="row"> 
-                        <img class="m-r-13"  src="@/assets/icons/lockIcon.svg">
+                        <img class="m-r-13" src="@/assets/icons/lockIcon.svg">
                         <span class="title">Сводный сметный расчет, Лимитиров...</span> 
                     </div>
                     <div class="lastVisit">
