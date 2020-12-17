@@ -90,7 +90,7 @@
 </template>
 <script lang="ts">
 import Vue from 'vue'
-import AddThemeBtn from "@/components/NavBarPages/Forum/AddThemeBtn";
+import AddThemeBtn from "./AddThemeBtn.vue";
 export default Vue.extend({
     components: {
       AddThemeBtn
