@@ -81,7 +81,7 @@
                  <div class="m-r-13">
                     <img src="@/assets/icons/privateThemeIcon.svg">
                  </div>
-                 <div>
+                 <div>g
                     <div class="first-row">
                       <img class="m-r-13"  src="@/assets/icons/lockIcon.svg">
                         <span class="title">Сводный сметный расчет, Лимитиров...</span> 
