@@ -1,0 +1,139 @@
+.rightContainer{
+    margin-top: 340px;
+    margin-left: 30px;
+    margin-right: 280px;
+    width: 330px;
+    min-height: calc(100vh - 69px);
+    
+    .createTheme{
+        background: #43A5D2;
+        border-radius: 4px;
+        width: 275px;
+        border: none;
+        height: 40px;
+        // font-family: Roboto;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        align-items: center;
+        font-feature-settings: 'dnom' on, 'numr' on, 'kern' off;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    .configIcon {
+      margin-left: 12px;
+      background: #43A5D2;
+      padding: 10px;
+      width: 42px;
+      height: 40px;
+      border-radius: 4px;
+      cursor: pointer;
+
+      img {
+        margin: 13px 0px -10px 0px;
+        margin-right: 11px;
+      }
+    }
+
+    .groupCard{
+        width: 329px;
+        background: #FFFFFF;
+        border: 1px solid #E8E6E6;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 5px rgba(199, 199, 199, 0.28);
+        border-radius: 6px;
+        margin-top: 30px;
+    }
+
+    .cardHeader{
+        height: 59px;
+        // font-family: Roboto;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 126.69%;
+        border-bottom: 1px solid #E3E3E3;
+        align-items: center;
+        padding: 18px;
+        color: #999997;
+    }
+
+    .cardText{
+        width: 266px;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        align-items: center;
+        color: #464444;
+        cursor: pointer;
+    }
+
+    .cardText:hover, .cardText:active{
+        color: #43A5D2;
+        border-bottom: 1px solid #43A5D2;
+    }
+
+    .cardContent{
+        margin-left: 18px;
+        margin-bottom: 30px
+    }
+
+    .activeUsers{
+        width: 266px;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // font-family: Roboto;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 251.69%;
+        align-items: center;
+        color: #464444;
+    }
+    
+    .userName{
+        margin-right: 5px;
+    }
+    
+    .userName:hover, .userName:focus{
+        color: #43A5D2;
+        border-bottom: 1px solid #43A5D2;
+    }
+
+    .userIndexNumber{
+        margin-top: 7px;
+        background: #E3E3E3;
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        margin: 11px 5px 0px 0px;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 251.69%;
+        align-items: center;
+        color: dimgray;
+        display: flex;
+    }
+
+    .userNumber{
+        color: #999997;
+    }
+
+    .forumStatistic{
+        // font-family: Roboto;
+        font-weight: normal;
+        font-size: 16px;
+        align-items: center;
+        color: #999997;
+        margin-left: 13px;
+    }
+
+    .forumStatisticCount{
+        margin-left: 5px;
+        border-bottom: 1px solid black;
+    }
+}

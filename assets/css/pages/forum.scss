@@ -25,7 +25,6 @@
 
 }
 
-
 .forumBody {
   margin-top: 95px;
 
@@ -42,6 +41,14 @@
       box-sizing: border-box;
       border-radius: 4px;
       padding: 12px;
+    }
+
+    .searchIcon{
+        position: absolute;
+        bottom: 13px;
+        right: 13px;
+        width: 12px;
+        height: 12px;
     }
 
     .searchInput:focus{
@@ -252,7 +259,6 @@
       display: inline-block;
       overflow: hidden;
       text-overflow: ellipsis;
-      margin-left: 13px
     }
 
     .lastVisit{
@@ -310,15 +316,6 @@
   cursor: pointer;
 }
 
-.configIcon{
-  margin-left: 12px;
-  background: #43A5D2;
-  padding: 10px;
-  width: 42px;
-  height: 40px;
-  border-radius: 4px;
-  cursor: pointer;
-}
 
 
 
