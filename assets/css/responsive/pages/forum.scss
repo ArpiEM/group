@@ -115,7 +115,17 @@
 
 
     .iconDescriptions {
-      margin-bottom: 40px
+      margin-bottom: 40px;
+      margin-top: 40px;
+
+
+      .row:not(.rowWidth) {
+        flex-direction: column;
+
+        .m-l-50 {
+          margin-left: 0;
+        }
+      }
     }
   }
 

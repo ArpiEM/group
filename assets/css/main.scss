@@ -57,6 +57,10 @@
   color: white;
 }
 
+.m-r-5 {
+  margin-right: 5px;
+}
+
 .m-r-13{
     margin-right: 13px;
 }
@@ -65,12 +69,17 @@
     display: flex;
 }
 
+.align-center {
+  align-items: center;
+}
+
 .w-100 {
   width: 100%;
 }
 
 .rowWidth{
     width: 301px;
+    margin: 5px 0;
 }
 
 .m-t-50{

@@ -2,7 +2,9 @@
     <div class="rightContainer">
         <div class="row">
           <AddThemeBtn/>
-          <div class="configIcon">icon</div>
+          <div class="configIcon">
+            <img src="@/assets/icons/settingsIcon.svg">
+          </div>
         </div>
         <div class="groupCard">
             <div class="cardHeader">Популярные темы</div>
@@ -88,7 +90,7 @@
 </template>
 <script lang="ts">
 import Vue from 'vue'
-import AddThemeBtn from "@/pages/NavBarPages/Forum/parts/AddThemeBtn";
+import AddThemeBtn from "@/components/NavBarPages/Forum/AddThemeBtn";
 export default Vue.extend({
     components: {
       AddThemeBtn

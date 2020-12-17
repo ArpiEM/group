@@ -1,22 +1,26 @@
 <template>
-    <div>
-        <Header></Header>
-        <div class="page-content">
-          <SideBar />
-          <Forum />
+  <div>
+    <Header></Header>
+    <div class="page-content">
+      <SideBar />
+      <div class="container">
+        <div class="forumTextContainer">
+          <div class="groupHeaderText">Это только временный текст в группах</div>
+          <div class="groupDescription">Расскажем, как научиться, в сообщениях группы.</div>
         </div>
+        <NavBar/>
+      </div>
     </div>
+  </div>
 </template>
 <script lang="ts">
     import Vue from 'vue';
     import Header from '../components/Header.vue';
     import SideBar from '../components/SideBar.vue';
-    import Forum from '../pages/NavBarPages/Forum/Forum.vue';
     export default Vue.extend({
         components: {
             Header,
             SideBar,
-            Forum
         }
     })
 </script>

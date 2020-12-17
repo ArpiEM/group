@@ -34,6 +34,11 @@
       display: none;
     }
 
+    .searchBox {
+      position: relative;
+      display: table-cell;
+    }
+
     .searchInput{
       width: 252px;
       height: 42px;
@@ -97,6 +102,16 @@
     min-height: calc(100vh - 69px);
 
 
+    .configIcon {
+      margin-left: 12px;
+      background: #43A5D2;
+      padding: 10px;
+      width: 42px;
+      height: 40px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
     .groupCard{
       width: 329px;
       background: #FFFFFF;
@@ -120,7 +135,6 @@
     }
 
     .cardText{
-      width: 266px;
       display: inline-block;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -130,6 +144,12 @@
       align-items: center;
       color: #464444;
       cursor: pointer;
+      border-bottom: 1px solid transparent;
+
+      &:hover, &:active{
+        color: #43A5D2;
+        border-bottom: 1px solid #43A5D2;
+      }
     }
 
     .cardContent{
@@ -168,6 +188,15 @@
 
     .userNumber{
       color: #999997;
+    }
+
+    .userName{
+      margin-right: 5px;
+
+      &:hover, &:focus {
+        color: #43A5D2;
+        border-bottom: 1px solid #43A5D2;
+      }
     }
 
     .forumStatistic{

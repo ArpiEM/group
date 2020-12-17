@@ -81,7 +81,7 @@
                  <div class="m-r-13">
                     <img src="@/assets/icons/privateThemeIcon.svg">
                  </div>
-                 <div>g
+                 <div>
                     <div class="first-row">
                       <img class="m-r-13"  src="@/assets/icons/lockIcon.svg">
                         <span class="title">Сводный сметный расчет, Лимитиров...</span> 
@@ -137,22 +137,18 @@
             </tr>
             <tr>
                 <td>
-                 <div class="m-r-23">icon</div>
-                 <div>
+                  <div class="m-r-13">
+                    <img src="@/assets/icons/themeNoMessageIcon.svg">
+                  </div>
+                  <div>
                     <div class="first-row">
-                      <img src="@/assets/icons/themeNoMessageIcon.svg">
-                        <span class="title">Договор подряда </span>
+                      <span class="title">Договор подряда </span>
                     </div>
-                    <div>
-                        <div class="row"> 
-                            <span class="title">Договор подряда </span>
-                        </div>
-                        <div class="lastVisit">
-                            <span>Последнее от</span>
-                            <span class="visitDitails">Вячеслава вчера в 06:31 </span>
-                        </div>
+                    <div class="lastVisit">
+                      <span>Последнее от</span>
+                      <span class="visitDitails">Вячеслава вчера в 06:31 </span>
                     </div>
-                 </div>
+                  </div>
                 </td>
                 <td>34</td>
                 <td>234</td>
@@ -312,23 +308,23 @@
             </tr>
         </table>
         <div class="iconDescriptions">
-            <div class="first-row">
-                <div class="rowWidth">
-                    <img src="@/assets/icons/themeNoMessageIcon.svg">
+            <div class="row">
+                <div class="rowWidth align-center row">
+                    <img src="@/assets/icons/themeNoMessageIcon.svg" class="m-r-5">
                     <span>Обычная тема, нет новых сообщений</span>
                 </div>
-                <div class="m-l-50 rowWidth">
-                  <img src="@/assets/icons/popularThemeIcon.svg">
+                <div class="m-l-50 align-center row rowWidth">
+                  <img src="@/assets/icons/popularThemeIcon.svg" class="m-r-5">
                     <span>Популярная тема</span>
                 </div>
             </div>
-            <div class="first-row">
-                <div class="rowWidth">
-                  <img src="@/assets/icons/themeNewMessageIcon.svg">
+            <div class="row">
+                <div class="rowWidth align-center row">
+                  <img src="@/assets/icons/themeNewMessageIcon.svg" class="m-r-5">
                     <span>Обычная тема, нет новых сообщений</span>
                 </div>
-                <div class="m-l-50 rowWidth">
-                    <img src="@/assets/icons/privateThemeIcon.svg">
+                <div class="m-l-50 rowWidth align-center row">
+                    <img src="@/assets/icons/privateThemeIcon.svg" class="m-r-5">
                     <span>Закрытая тема</span>
                 </div>
             </div>
