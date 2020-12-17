@@ -7,6 +7,7 @@
         <NavBar/>
         <div class="searchBoxContainer">
             <input class="searchInput" placeholder="Поиск"/>
+            <img class="searchIcon" src="@/assets/icons/searchIcon.svg">
         </div>
         <ForumTable/>
     </div>
