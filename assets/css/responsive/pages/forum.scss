@@ -1,0 +1,138 @@
+@media only screen and (max-width: 1366px) {
+  .forumBody {
+    .rightContainer{
+      display: none
+    }
+
+    .searchBoxContainer {
+      display: flex;
+      justify-content: space-between;
+
+      .onlySmallDisplays {
+        display: block;
+      }
+    }
+
+    .forumTableContainer {
+        max-width: unset;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .forumBody {
+
+    .forumTableContainer  {
+
+      th:first-child{
+        padding-left: 15px;
+      }
+
+      td:first-child {
+        margin: 30px 0 0 15px;
+      }
+    }
+
+    .iconDescriptions {
+      .m-l-50 {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+
+  .forumTextContainer {
+    display: none;
+  }
+
+  .forumBody {
+
+    .searchBoxContainer {
+      display: none;
+    }
+
+    .forumTableContainer  {
+
+      border: none;
+      box-shadow: unset;
+
+      tr:first-child {
+        border: none;
+      }
+
+      tr {
+        border: none;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid #E3E3E3;
+        }
+      }
+
+      th:first-child{
+        width: unset;
+      }
+
+      td:first-child {
+        display: flex;
+        width: unset;
+      }
+
+      td:not(:first-child), th:not(:first-child) {
+       display: none;
+      }
+
+      .title {
+        margin-left: 8px;
+        max-width: 250px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 518px) {
+  .forumBody {
+
+    .forumTableContainer{
+      .title {
+        font-size: 16px;
+        max-width: 200px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+      }
+
+      .review {
+        bottom: 0;
+      }
+
+      .first-row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+
+
+    .iconDescriptions {
+      margin-bottom: 40px
+    }
+  }
+
+
+}
+
+@media only screen and (max-width: 420px) {
+  .forumTableContainer{
+    td:first-child {
+      .m-r-23 {
+        margin-right: 10px;
+      }
+    }
+
+    .lastVisit {
+      //display: flex;
+      //flex-wrap: wrap;
+    }
+  }
+}

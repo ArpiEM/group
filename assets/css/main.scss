@@ -1,11 +1,47 @@
 @import "parts/index";
 @import "pages/index";
+@import "responsive/index";
 
-.container{
-    display: flex;
-    justify-content: space-between;
+.page-content{
+  display: flex;
+
+  .container{
     width: 100%;
-    margin-left: 97px;
+    max-width: 1277px;
+    margin-left: 96px;
+    margin-right: 16px;
+    
+    @media (max-width: 1500px) {
+      margin-left: 50px;
+    }
+
+    @media (max-width: 800px) {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+}
+
+.goToBeginingBtn{
+  width: 87px;
+  height: 30px;
+  background: #F2F2F2;
+  border-radius: 4px;
+  // font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  color: #999997;
+  float: right;
+  margin: -95px 0px 0px 0px;
+  justify-content: center;
+  display: flex;
+
+  @media (max-width: 500px) {
+    margin: 0 0 20px;
+    float: none;
+  }
 }
 
 .m-r-23{
@@ -14,6 +50,10 @@
 
 .row{
     display: flex;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 .rowWidth{

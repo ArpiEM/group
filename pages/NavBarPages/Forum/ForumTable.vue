@@ -1,6 +1,6 @@
 <template>
     <div>
-        <table class="forumTabelContainer">
+        <table class="forumTableContainer">
             <tr>
                 <th>Ценообразование в строительстве</th>
                 <th>Темы</th>
@@ -11,7 +11,7 @@
                 <td>
                  <div class="m-r-23">icon</div>
                  <div>
-                    <div class="row"> 
+                    <div class="first-row"> 
                         <span>icon</span>
                         <span class="title">Вопросы-ответы</span>
                         <span class="review">(просматривают: 21)</span>
@@ -30,7 +30,7 @@
                 <td>
                  <div class="m-r-23">icon</div>
                  <div>
-                    <div class="row"> 
+                    <div class="first-row"> 
                         <span>icon</span>
                         <span class="title">Подсчет объемов работ</span>
                     </div>
@@ -48,7 +48,7 @@
                 <td>
                  <div class="m-r-23">icon</div>
                  <div>
-                    <div class="row"> 
+                    <div class="first-row"> 
                         <span>icon</span>
                         <span class="title"> Поправочные коэффициенты</span>
                     </div>
@@ -66,7 +66,7 @@
                 <td>
                  <div class="m-r-23">icon</div>
                  <div>
-                    <div class="row"> 
+                    <div class="first-row"> 
                         <span>icon</span>
                         <span class="title">Сводный сметный расчет, Лимитиров...</span> 
                     </div>
@@ -84,7 +84,7 @@
                 <td>
                  <div class="m-r-23">icon</div>
                  <div>
-                    <div class="row"> 
+                    <div class="first-row"> 
                         <span>icon</span>
                         <span class="title">Элементы сметы </span>
                     </div>
@@ -102,7 +102,7 @@
                 <td>
                  <div class="m-r-23">icon</div>
                  <div>
-                    <div class="row"> 
+                    <div class="first-row"> 
                         <span>icon</span>
                         <span class="title">Методы расчета цены</span>
                     </div>
@@ -120,7 +120,7 @@
                 <td>
                  <div class="m-r-23">icon</div>
                  <div>
-                    <div class="row"> 
+                    <div class="first-row"> 
                         <span>icon</span>
                         <span class="title">Договор подряда </span>
                     </div>
@@ -135,7 +135,7 @@
                 <td>547</td>
             </tr>
         </table>
-        <table class="forumTabelContainer m-t-50">
+        <table class="forumTableContainer m-t-50">
             <tr>
                 <th>Поиск расценок в ГЭСН, ФЕР, ТЕР и пр.</th>
                 <th>Темы</th>
@@ -146,7 +146,7 @@
                 <td>
                  <div class="m-r-23">icon</div>
                  <div>
-                    <div class="row"> 
+                    <div class="first-row"> 
                         <span>icon</span>
                         <span class="title">Общестроительные работы</span>
                         <span class="review">(просматривают: 21)</span>
@@ -165,7 +165,7 @@
                 <td>
                  <div class="m-r-23">icon</div>
                  <div>
-                    <div class="row"> 
+                    <div class="first-row"> 
                         <span>icon</span>
                         <span class="title">Ремонтные работы</span>
                     </div>
@@ -183,7 +183,7 @@
                 <td>
                  <div class="m-r-23">icon</div>
                  <div>
-                    <div class="row"> 
+                    <div class="first-row"> 
                         <span>icon</span>
                         <span class="title">Монтажные работы</span>
                     </div>
@@ -201,7 +201,7 @@
                 <td>
                  <div class="m-r-23">icon</div>
                  <div>
-                    <div class="row"> 
+                    <div class="first-row"> 
                         <span>icon</span>
                         <span class="title">Электромонтажные работы</span> 
                     </div>
@@ -219,7 +219,7 @@
                 <td>
                  <div class="m-r-23">icon</div>
                  <div>
-                    <div class="row"> 
+                    <div class="first-row"> 
                         <span>icon</span>
                         <span class="title">Слаботочные системы</span>
                     </div>
@@ -237,7 +237,7 @@
                 <td>
                  <div class="m-r-23">icon</div>
                  <div>
-                    <div class="row"> 
+                    <div class="first-row"> 
                         <span>icon</span>
                         <span class="title">Пусконаладочные работы</span>
                     </div>
@@ -255,7 +255,7 @@
                 <td>
                  <div class="m-r-23">icon</div>
                  <div>
-                    <div class="row"> 
+                    <div class="first-row"> 
                         <span>icon</span>
                         <span class="title">Проектные работы</span>
                     </div>
@@ -271,20 +271,20 @@
             </tr>
         </table>
         <div class="iconDescriptions">
-            <div class="row">
+            <div class="first-row">
                 <div class="rowWidth">
                     <span>icon</span>
                     <span>Обычная тема, нет новых сообщений</span>
                 </div>
                 <div class="m-l-50 rowWidth">
                     <span>icon</span>
-                    <span>Обычная тема, есть новые сообщения</span>
+                    <span>Популярная тема</span>
                 </div>
             </div>
-            <div class="row">
+            <div class="first-row">
                 <div class="rowWidth">
                     <span>icon</span>
-                    <span>Популярная тема</span>
+                    <span>Обычная тема, нет новых сообщений</span>
                 </div>
                 <div class="m-l-50 rowWidth">
                     <span>icon</span>

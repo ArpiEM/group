@@ -74,10 +74,9 @@ export default Vue.extend({
         }
     }
     &__listItem {
-        padding: 0 2% 1% 2%;
+        padding: 0 30px 1% 30px;
         box-sizing: border-box;
         display: flex;
-        width: 119px;
         justify-content: center;
         cursor: pointer;
         height: 100%;
@@ -86,6 +85,10 @@ export default Vue.extend({
         line-height: 19px;
         color: #3f3e3e;
         border-bottom: 1px solid #c7c7c7;
+
+        @media(max-width: 1128px) {
+          padding: 0 15px 1% 15px;
+        }
     }
     &__activeLink {
         color: #008e9f;
@@ -95,6 +98,12 @@ export default Vue.extend({
     &__whiteSpace {
         border-bottom: 1px solid #c7c7c7;
         width: 100%;
+    }
+
+
+
+    @media(max-width: 768px) {
+      display: none ;
     }
 }
 </style>

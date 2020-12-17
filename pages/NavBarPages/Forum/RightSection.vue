@@ -1,10 +1,8 @@
 <template>
     <div class="rightContainer">
         <div class="row">
-            <div>
-                <button class="createTheme">+ Создать тему</button>
-            </div>
-            <div class="configIcon">icon</div>
+          <AddThemeBtn/>
+          <div class="configIcon">icon</div>
         </div>
         <div class="groupCard">
             <div class="cardHeader">Популярные темы</div>
@@ -92,8 +90,11 @@
 </template>
 <script lang="ts">
 import Vue from 'vue'
+import AddThemeBtn from "@/pages/NavBarPages/Forum/parts/AddThemeBtn";
 export default Vue.extend({
-    
+    components: {
+      AddThemeBtn
+    }
 })
 </script>
 <style lang="scss" scoped>
