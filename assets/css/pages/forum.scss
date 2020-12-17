@@ -4,7 +4,6 @@
 
     .groupHeaderText{
         // font-family: Roboto;
-        font-style: normal;
         font-weight: normal;
         font-size: 30px;
         line-height: 35px;
@@ -16,7 +15,6 @@
     .groupDescription{
         margin-top: 9px;
         // font-family: Roboto;
-        font-style: normal;
         font-weight: normal;
         font-size: 20px;
         line-height: 23px;
@@ -27,7 +25,181 @@
 
 }
 
-.navBarContainer{
-    margin-top: 207px;
-    margin-left: 115px;
+.searchBoxContainer{
+    margin-top: 96px;
+
+    .searchInput{
+        width: 252px;
+        height: 42px;
+        border: 1px solid #E8E6E6;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 12px;
+    }
+
+    .searchInput:focus{
+        border: 2px solid #008e9f;
+        outline: none;
+    }
+    
+    ::placeholder {
+        /* Firefox */
+        // font-family: Roboto;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #999997; 
+      }
+      
+      :-ms-input-placeholder { 
+        /* Internet Explorer 10-11 */
+        // font-family: Roboto;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #999997; 
+      }
+      
+      ::-ms-input-placeholder {
+         /* Microsoft Edge */
+        // font-family: Roboto;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #999997; 
+      }
 }
+
+.forumTabelContainer{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-top: 29px;
+    width: 918px;
+    height: 766px;
+    background: #FFFFFF;
+    border: 1px solid #E8E6E6;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(199, 199, 199, 0.28);
+    border-radius: 6px;
+
+    tr{
+        border: 1px solid #F2F2F2;
+        height: 65px;
+    }
+
+    // tr:nth-child(even) {
+    //     background: #F9F9F9;    
+    // }
+    tr:first-child {
+        border: 1px solid #E3E3E3;
+        height: 52px;
+    }
+    
+    th:first-child{
+        // width: 301px;
+        display: flex;
+        margin: 17px 0px 0px 30px;
+        // font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        align-items: center;
+        font-feature-settings: 'dnom' on, 'numr' on, 'kern' off;
+        color: #303030;
+    }
+    td:first-child{
+        width: 380px;
+        display: flex;
+        margin: 30px 0px 0px 30px;
+    }
+    tr:hover {background-color:#f5f5f5;}
+    th:nth-child(n + 2){
+        // font-family: Roboto;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        align-items: center;
+        color: #C4C4C4;
+    }
+    td:nth-child(n + 2){
+        // font-family: Roboto;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        align-items: center;
+        color: #5C5B5B;
+    }
+    .title{
+        // font-family: Roboto;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        align-items: center;
+        color: #303030;
+        white-space: nowrap;
+        max-width: 330px;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-left: 13px
+    }
+
+    .lastVisit{
+        // font-family: Roboto;
+        margin-top: 5px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        align-items: center;
+        color: #999997;
+    }
+
+    .visitDitails{
+        border-bottom: 1px solid  #999997;
+    }
+
+    .review{
+        margin-left: 8px;
+        // font-family: Roboto;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        align-items: center;
+        color: #C8C8C8;
+    }
+}
+
+.iconDescriptions{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    //  font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    color: #6B6868;
+}
+
+.goToBeginingBtn{
+    width: 87px;
+    height: 30px;
+    background: #F2F2F2;
+    border-radius: 4px;
+    // font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    color: #999997;
+    float: right;
+    margin: -95px 0px 0px 0px;
+    justify-content: center;
+    display: flex;
+}
+
