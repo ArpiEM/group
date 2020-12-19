@@ -1,65 +1,32 @@
-<!-- <template>
-    <div>
-        <div class="searchBoxContainer">
-            <input class="searchInput" placeholder="Поиск"/>
-            <img class="searchIcon" src="@/assets/icons/searchIcon.svg">
-        </div>
-        <ForumTable/>
-    </div>
-</template>
-<script lang="ts">
-import Vue from 'vue';
-import NavBar from '@/components/NavBar.vue';
-import ForumTable from '@/components/NavBarPages/Forum/ForumTable.vue'
-export default Vue.extend({
-    components: {
-        NavBar,
-        ForumTable
-    }
-})
-</script> -->
 <template>
   <div>
-    <Header></Header>
+   <Header></Header>
     <div class="page-content">
       <SideBar />
       <div class="container">
-        <div class="forumTextContainer">
-          <div class="groupHeaderText">Это только временный текст в группах</div>
-          <div class="groupDescription">Расскажем, как научиться, в сообщениях группы.</div>
-        </div>
+        <div class="forumTextContainer" id="forumTextContainer_" v-if="showText">
+            <div class="groupHeaderText">Это только временный текст в группах</div>
+            <div class="groupDescription">Расскажем, как научиться, в сообщениях группы.</div>
+        </div>     
         <NavBar/>
-        <div class="row w-100 forumBody">
-          <div class="w-100">
-            <div class="searchBoxContainer">
-              <div class="searchBox">
-                <input class="searchInput" placeholder="Поиск"/>
-                <img class="searchIcon" src="@/assets/icons/searchIcon.svg">
-              </div>
-              <AddThemeBtn class="onlySmallDisplays"/>
-            </div>
-            <ForumTable/>
-          </div>
-          <RightSection/>
-        </div>
+        <nuxt-child v-on:childToParent="setShowText"/>
       </div>
-    </div>
+    </div> 
   </div>
 </template>
 <script lang="ts">
 import Vue from 'vue';
-import Header from '../components/Header.vue';
-import NavBar from '@/components/NavBar.vue';
-import ForumTable from '@/components/NavBarPages/Forum/ForumTable.vue';
-import SideBar from '../components/SideBar.vue';
-import RightSection from '@/components/NavBarPages/Forum/RightSection.vue';
 export default Vue.extend({
-    components: {
-        NavBar,
-        ForumTable,
-        Header,
-        SideBar,
-        RightSection,
-    }
+data(){
+  return{
+    showText: true
+  }
+},
+methods:{
+  setShowText(value: boolean){
+    this.showText = value
+    console.log(value, "test")
+  }
+}  
 })
 </script>

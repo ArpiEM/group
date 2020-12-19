@@ -24,7 +24,7 @@
                  <div>
                     <div class="first-row">
                         <img class="m-r-13" src="@/assets/icons/stickyIcon.svg">
-                        <span class="title">Вопросы-ответы</span>
+                        <span class="title" @click="GoToAnswersPage">Вопросы-ответы</span>
                         <span class="review">(просматривают: 21)</span>
                     </div>
                     <div class="lastVisit">
@@ -338,8 +338,16 @@
 <script lang="ts">
 import Vue from 'vue';
 export default Vue.extend({
-    components:{
-    }
+   methods:{
+       GoToAnswersPage(){
+           this.$router.push('forum/answers');
+        //    const textDiv = document.getElementById("forumTextContainer_");
+        //    if(textDiv)
+        //     textDiv.style.display = "none";
+            // this.$emit("test", false);
+        this.$emit('childToParent', false)   
+        }
+   }
 })
 </script>
 <style lang="scss">

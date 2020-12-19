@@ -75,7 +75,7 @@
         </div>
         <div class="groupCard">
             <div class="cardHeader">Статистика форума</div>
-            <div class="cardContent">
+            <div class="socialIcons">
                 <div class="m-t-30 row">
                     <img src="@/assets/icons/socialMedia/facebookIcon.svg">
                     <img src="@/assets/icons/socialMedia/twitterIcon.svg">
@@ -90,11 +90,8 @@
 </template>
 <script lang="ts">
 import Vue from 'vue'
-import AddThemeBtn from "./AddThemeBtn.vue";
 export default Vue.extend({
-    components: {
-      AddThemeBtn
-    }
+    components: {}
 })
 </script>
 <style lang="scss" scoped>

@@ -10,6 +10,7 @@
     max-width: 1277px;
     margin-left: 96px;
     margin-right: 16px;
+    margin-bottom: 55px;
     
     @media (max-width: 1500px) {
       margin-left: 50px;
@@ -57,12 +58,8 @@
   color: white;
 }
 
-.m-r-5 {
-  margin-right: 5px;
-}
-
-.m-r-13{
-    margin-right: 13px;
+.pointer{
+  cursor: pointer;
 }
 
 .row{
@@ -86,14 +83,26 @@
     margin-top: 50px;
 }
 
-.m-l-50{
-    margin-left: 50px;
-}
-
 .m-t-30{
     margin-top: 30px
 }
 
 .m-t-15{
     margin-top: 15px
+}
+
+.m-l-50{
+  margin-left: 50px;
+}
+
+.m-r-5{
+  margin-right: 5px;
+}
+
+.m-r-13{
+    margin-right: 13px;
+}
+
+.m-b-75{
+  margin-bottom: 75px
 }

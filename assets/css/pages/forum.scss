@@ -28,6 +28,14 @@
 .forumBody {
   margin-top: 95px;
 
+  .pageNumbers{
+    // font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    align-items: center;
+    color: #C8C8C8;
+  }
+
   .searchBoxContainer{
 
     .onlySmallDisplays {
@@ -157,6 +165,14 @@
       margin-bottom: 30px
     }
 
+    .socialIcons{
+      margin-bottom: 30px;
+
+      .row{
+        justify-content: space-evenly;
+      }
+    }
+
     .activeUsers{
       width: 266px;
       display: inline-block;
@@ -227,6 +243,18 @@
     box-shadow: 5px 5px 5px rgba(199, 199, 199, 0.28);
     border-radius: 6px;
 
+    .autor{
+      border-bottom: 1px solid #5C5B5B;
+    }
+
+    .specialRow{
+      background: #FFFFFF;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.14), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+      border-radius: 4px;
+      line-height: 42px;
+      transform: scale(1.04);
+    }
+
     th {
       padding: 0 2px;
     }
@@ -288,6 +316,7 @@
       display: inline-block;
       overflow: hidden;
       text-overflow: ellipsis;
+      cursor: pointer;
     }
 
     .lastVisit{
@@ -303,7 +332,7 @@
     .visitDitails{
       border-bottom: 1px solid  #999997;
     }
-
+    
     .review{
       margin-left: 8px;
       // font-family: Roboto;
@@ -345,7 +374,44 @@
   cursor: pointer;
 }
 
+.componentPath{
+  // font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  font-feature-settings: 'dnom' on, 'numr' on, 'kern' off;
+  color: #999997;
 
+  .currentName{
+    color:#43A5D2;
+    margin-left: 5px;
+  }
+
+  .goBack{
+    margin-left: 491px;
+    // font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #999997;
+    cursor: pointer;
+  }
+}
+
+.paginationNumber{
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 9px;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
 
 
 
