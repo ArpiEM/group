@@ -341,11 +341,6 @@ export default Vue.extend({
    methods:{
        GoToAnswersPage(){
            this.$router.push('forum/answers');
-        //    const textDiv = document.getElementById("forumTextContainer_");
-        //    if(textDiv)
-        //     textDiv.style.display = "none";
-            // this.$emit("test", false);
-        this.$emit('childToParent', false)   
         }
    }
 })

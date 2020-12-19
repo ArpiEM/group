@@ -153,5 +153,8 @@
 </template>
 <script>
 export default {
+  routerData: {
+    sdw: true
+  }
 }
 </script>>

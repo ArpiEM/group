@@ -4,6 +4,9 @@
       <div class="groupHeaderText">Это только временный текст в группах</div>
       <div class="groupDescription">Расскажем, как научиться, в сообщениях группы.</div>
     </div>
+    <div v-else>
+      en qarakusi anterner@
+    </div>
     <NavBar/>
     <nuxt-child/>
   </div>
@@ -14,20 +17,15 @@
   import SideBar from "../components/SideBar.vue";
 
   export default Vue.extend({
+    asyncData({route}) {
+      return { showText: route.name === "forum" }
+    },
+    watchQuery: true,
     components: {
       Header,
       SideBar
     },
-    data() {
-      return {
-        showText: true
-      };
-    },
     methods: {
-      setShowText(value: boolean) {
-        this.showText = value;
-        console.log(value, "test");
-      }
     }
   });
 </script>
