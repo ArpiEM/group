@@ -18,7 +18,9 @@
 
   export default Vue.extend({
     asyncData({route}) {
-      return { showText: route.name === "forum" }
+      return {
+        showText: route.name === "forum"
+      }
     },
     watchQuery: true,
     components: {
