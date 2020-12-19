@@ -4,8 +4,11 @@
       <div class="groupHeaderText">Это только временный текст в группах</div>
       <div class="groupDescription">Расскажем, как научиться, в сообщениях группы.</div>
     </div>
-    <div v-else>
-      en qarakusi anterner@
+    <div v-else class="squareSection">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
     <NavBar/>
     <nuxt-child/>
@@ -19,7 +22,8 @@
   export default Vue.extend({
     asyncData({route}) {
       return {
-        showText: route.name === "forum"
+        // showText: route.name === "forum"
+        showText: true // TODO ask question about texts
       }
     },
     watchQuery: true,
