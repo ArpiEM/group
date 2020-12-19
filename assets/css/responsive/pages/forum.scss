@@ -11,10 +11,32 @@
       .onlySmallDisplays {
         display: block;
       }
+
+      .componentPath {
+        width: 100%;
+        padding-right: 30px;
+      }
     }
 
     .forumTableContainer {
         max-width: unset;
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .forumBody {
+    .searchBoxContainer {
+
+      .componentPath {
+
+        padding-right: 20px;
+
+        .currentName {
+          display: block;
+          margin-left: 0;
+        }
+      }
     }
   }
 }
@@ -50,8 +72,12 @@
 
   .forumBody {
 
-    .searchBoxContainer {
-      display: none;
+    .mobileTitle {
+      display: block;
+    }
+
+    .hideOnMobile {
+      display: none !important;
     }
 
     .forumTableContainer  {
@@ -80,7 +106,7 @@
         width: unset;
       }
 
-      td:not(:first-child), th:not(:first-child) {
+      td:not(:first-child), tr:first-child {
        display: none;
       }
 

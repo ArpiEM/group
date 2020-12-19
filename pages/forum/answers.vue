@@ -1,12 +1,15 @@
 <template>
     <div class="row w-100 forumBody">
         <div class="w-100">
+            <div class="mobileTitle">
+              Вопросы - ответы
+            </div>
             <div class="searchBoxContainer">
                 <div class="componentPath">
                     <div>Ценообразование в строительстве »<span class="currentName">Вопросы-ответы</span></div>
-                    <div class="goBack"><img src="@/assets/icons/triangleLeftIcon.svg" class="m-r-5"> Назад</div>
+                    <div class="goBack hideOnMobile"><img src="@/assets/icons/triangleLeftIcon.svg" class="m-r-5"> Назад</div>
                 </div>  
-                <AddThemeBtn class="onlySmallDisplays"/>
+                <AddThemeBtn class="hideOnMobile onlySmallDisplays"/>
             </div>
             <table class="forumTableContainer m-b-75">
                 <tr>

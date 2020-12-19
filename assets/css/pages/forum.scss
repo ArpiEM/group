@@ -28,6 +28,13 @@
 .forumBody {
   margin-top: 95px;
 
+
+  .mobileTitle {
+    font-weight: bold;
+    font-size: 21px;
+    display: none;
+  }
+
   .pageNumbers{
     // font-family: Roboto;
     font-weight: normal;
@@ -253,6 +260,10 @@
       border-radius: 4px;
       line-height: 42px;
       transform: scale(1.04);
+
+      @media (max-width: 1400px) {
+        transform: scale(1.025);
+      }
     }
 
     th {
@@ -381,6 +392,7 @@
   line-height: 16px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   font-feature-settings: 'dnom' on, 'numr' on, 'kern' off;
   color: #999997;
 
@@ -390,7 +402,6 @@
   }
 
   .goBack{
-    margin-left: 491px;
     // font-family: Roboto;
     font-weight: normal;
     font-size: 14px;
