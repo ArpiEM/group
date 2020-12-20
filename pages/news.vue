@@ -7,11 +7,11 @@
     <NavBar/>
     <div class="row w-100 forumBody">
         <div class="w-100">
-            <div class="mobileTitle">
+            <!--<div class="mobileTitle">
                 Мусор|
-            </div>
+            </div>-->
             <div class="searchBoxContainer">
-                <SearchBox class="hideOnMobile newsSearch"/>
+                <SearchBox class="newsSearch"/>
                 <AddThemeBtn class="hideOnMobile onlySmallDisplays"/>
             </div>
             <div class="newsCard m-t-30">
@@ -47,14 +47,5 @@
   import Vue from "vue";
 
   export default Vue.extend({
-    asyncData({route}) {
-      return {
-        // showText: route.name === "forum"
-        showText: true // TODO ask question about texts
-      }
-    },
-    watchQuery: true,
-    methods: {
-    }
   });
 </script>

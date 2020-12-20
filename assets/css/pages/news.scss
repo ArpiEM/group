@@ -1,6 +1,9 @@
 .newsSearch{
+
+  display: block !important;
+
     input{
-        width: 918px !important;
+        width: 100% !important;
     }
 }
 
@@ -10,7 +13,7 @@
     box-sizing: border-box;
     box-shadow: 5px 5px 5px rgba(199, 199, 199, 0.28);
     border-radius: 6px;
-    width: 918px;
+    width: 100%;
 
     .newsCardContextHeader{
         // font-family: Roboto;
