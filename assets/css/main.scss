@@ -23,8 +23,6 @@
   }
 }
 
-
-
 .goToBeginingBtn{
   width: 87px;
   height: 30px;
@@ -70,6 +68,11 @@
   align-items: center;
 }
 
+.activeStyle{
+  color:#43a5d2;
+  border-bottom: 1px solid #43a5d2;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -77,6 +80,10 @@
 .rowWidth{
     width: 301px;
     margin: 5px 0;
+}
+
+.borderBottom{
+  border-bottom: 1px solid #F2F2F2;
 }
 
 .m-t-50{
@@ -91,8 +98,16 @@
     margin-top: 15px
 }
 
+.m-t-8{
+  margin-top: 8px
+}
+
 .m-l-50{
   margin-left: 50px;
+}
+
+.m-l-30{
+  margin-left: 30px;
 }
 
 .m-r-5{
@@ -105,4 +120,8 @@
 
 .m-b-75{
   margin-bottom: 75px
+}
+
+.m-b-18{
+  margin-bottom: 18px
 }

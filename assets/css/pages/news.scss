@@ -1,0 +1,31 @@
+.newsSearch{
+    input{
+        width: 918px !important;
+    }
+}
+
+.newsCard{
+    background: #FFFFFF;
+    border: 1px solid #E8E6E6;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(199, 199, 199, 0.28);
+    border-radius: 6px;
+    width: 918px;
+
+    .newsCardContextHeader{
+        // font-family: Roboto;
+        font-weight: normal;
+        font-size: 18px;
+        align-items: center;
+        color: #302F2F;
+    }
+
+    .newsCardContextBody{
+        // font-family: Roboto;
+        font-weight: normal;
+        font-size: 14px;
+        align-items: center;
+        color: #6B6868;
+        margin-bottom: 18px;
+    }
+}
