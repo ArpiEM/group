@@ -3,7 +3,7 @@
     <div class="mobileTitle">
       Ценообразование в строительстве
     </div>
-    <div class="searchBoxContainer">
+    <div class="boxContainer">
       <SearchBox class="hideOnMobile"/>
       <AddThemeBtn class="hideOnMobile onlySmallDisplays"/>
     </div>
