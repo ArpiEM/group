@@ -11,7 +11,10 @@
       <div></div>
     </div>
     <NavBar/>
-    <nuxt-child/>
+    <div class="row w-100 forumBody">
+      <nuxt-child/>
+      <RightSection/>
+    </div>
   </div>
 </template>
 <script lang="ts">
