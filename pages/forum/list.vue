@@ -3,7 +3,7 @@
     <!--<div class="mobileTitle">
         Мусор|
     </div>-->
-    <div class="searchBoxContainer">
+    <div class="boxContainer">
       <SearchBox class="newsSearch"/>
       <AddThemeBtn class="hideOnMobile onlySmallDisplays"/>
     </div>
@@ -12,7 +12,7 @@
         <div class="newsCardContextHeader">Вывоз <b>мусора</b> Пенза. Вывоз <b>мусора</b> в Пенза Газель, Зил, Камаз</div>
         <div class="m-t-8 newsCardContextBody">... Вывоз <b>мусора</b> Пенза,вывоз <b>мусора</b> в Пензе Газель, Зил, Камаз. Вывоз строительного <b>мусора</b> по Пензе, вывоз строй <b>мусора</b> на свалку недорого.</div>
       </div>
-      <div class="borderBottom m-b-18"></div>
+      <div class="border-bottom m-b-18"></div>
       <div class="m-l-30 m-b-18">Форум сметчиков » Разное » <span class="activeStyle">Реклама</span></div>
     </div>
     <div class="newsCard m-t-30">
@@ -20,7 +20,7 @@
         <div class="newsCardContextHeader"><b>Мусор</b></div>
         <div class="m-t-8 newsCardContextBody">... эксплуатировавшемся длительное время, скопился бытовой <b>мусора</b> , его необходимо убрать и вывезти на свалку. Затраты по уборке бытового <b>мусора</b> не учтены нормами накладных расходов , указанные затраты должны ...</div>
       </div>
-      <div class="borderBottom m-b-18"></div>
+      <div class="border-bottom m-b-18"></div>
       <div class="m-l-30 m-b-18">Форум сметчиков » Ценообразование в строительстве » <span class="activeStyle">Вопросы-ответы</span></div>
     </div>
     <div class="newsCard m-t-30">
@@ -28,7 +28,7 @@
         <div class="newsCardContextHeader">Вывоз <b>мусора</b> Пенза. Вывоз <b>мусора</b> в Пенза Газель, Зил, Камаз</div>
         <div class="m-t-8 newsCardContextBody">... Вывоз <b>мусора</b> Пенза,вывоз <b>мусора</b> в Пензе Газель, Зил, Камаз. Вывоз строительного <b>мусора</b> по Пензе, вывоз строй <b>мусора</b> на свалку недорого.</div>
       </div>
-      <div class="borderBottom m-b-18"></div>
+      <div class="border-bottom m-b-18"></div>
       <div class="m-l-30 m-b-18">Форум сметчиков » Разное » <span class="activeStyle">Реклама</span></div>
     </div>
   </div>

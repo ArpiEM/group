@@ -1,16 +1,19 @@
 @media only screen and (max-width: 1366px) {
   .forumBody {
+
+
+    .onlySmallDisplays {
+      display: block;
+    }
+
     .rightContainer{
       display: none
     }
 
-    .searchBoxContainer {
+    .boxContainer {
       display: flex;
       justify-content: space-between;
 
-      .onlySmallDisplays {
-        display: block;
-      }
 
       .componentPath {
         width: 100%;
@@ -26,7 +29,7 @@
 
 @media only screen and (max-width: 1100px) {
   .forumBody {
-    .searchBoxContainer {
+    .boxContainer {
 
       .componentPath {
 
@@ -66,18 +69,22 @@
 
 @media only screen and (max-width: 700px) {
 
+
   .forumTextContainer {
     display: none;
   }
 
   .forumBody {
 
-    .mobileTitle {
-      display: block;
-    }
+
 
     .hideOnMobile {
       display: none !important;
+    }
+
+
+    .mobileTitle {
+      display: block;
     }
 
     .forumTableContainer  {

@@ -42,9 +42,16 @@
 
 }
 
+
+
 .forumBody {
   margin-top: 95px;
 
+
+
+  .onlySmallDisplays {
+    display: none;
+  }
 
   .mobileTitle {
     font-weight: bold;
@@ -60,10 +67,16 @@
     color: #C8C8C8;
   }
 
-  .searchBoxContainer{
+  .boxContainer{
 
-    .onlySmallDisplays {
-      display: none;
+
+    .viewHeader{
+      // font-family: Roboto;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 25px;
+      align-items: center;
+      color: #313030;
     }
 
     .searchBox {
@@ -441,10 +454,56 @@
   cursor: pointer;
 }
 
+.view-person-img{
+  width: 140px;
+  height: 140px;
+  border-radius: 6px; 
+  background-repeat: round;
+  background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8d29ya3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80')
+}
+
+.person-container{
+
+  width: 140px;
+
+  .view-arrow-icons-container{
+    width: 49px;
+    height: 25px;
+    position: relative;
+    top: 128px;
+    margin-left: 45px;
+    background: #FFFFFF;
+    border: 1px solid #E8E6E6;
+    box-sizing: border-box;
+    border-radius: 18px;
+    display: flex;
+  
+    .icon-container{
+      width: 18px;
+      height: 16px;
+      background: #F2F2F2;
+      margin: 3px;
+      border-radius: 8px;
+  
+      .icon{
+        width: 7px;
+        margin: 5px
+      }
+    }
+  }
+  
+  .view-user-name{
+    // font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+    color: #1E9BAA;
+    justify-content: center;
+    display: flex;
+  }  
+}
 
 .create__new__theme__form {
-
-
   &__container {
     margin-top: 48px;
   }
@@ -548,14 +607,14 @@
           font-size: 16px;
         }
 
-
-
         input {
           display: none;
         }
       }
     }
   }
+
+
 
   .footer__btn {
     background: #43a5d2;
@@ -573,5 +632,133 @@
   span {
     color: #ff5353;
   }
+}
 
+.view-main-content {
+  margin-left: 70px;
+
+  .view-post-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .view-post-date {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    align-items: center;
+    color: #999997;
+  }
+
+  .post-img {
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  .view-post-text {
+    // font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+    color: #313030;
+  }
+
+}
+
+.progress__bar {
+  height: 6px;
+  border-radius: 45px;
+  width: 140px;
+  background: #D4EAF5;
+
+    &__percent {
+    width: 80%;
+    background: #43A5D2;
+        border-bottom-right-radius: 45px;
+        border-top-right-radius: 45px;
+    }
+
+}
+
+.forum-messages {
+
+  .messages-hr {
+    border: 1px solid #e3e3e3;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .forum-message {
+    display: flex;
+    padding: 30px 30px 50px;
+
+    &.colored {
+      background: rgba(212, 234, 245, 0.51);
+    }
+
+    &.reply {
+      .left-section {
+
+
+        .replied-message {
+          font-size: 12px;
+          .reply-title {
+            color: #999997;
+
+            .username {
+              color: #43A5D2;
+            }
+          }
+
+          .reply-text {
+            margin-top: 5px;
+            background: #DBF3FF;
+            border: 1px solid #48AFDB;
+            padding: 12px;
+            color: #646463;
+          }
+          margin-bottom: 18px;
+        }
+
+        .time-section {
+          margin-bottom: 18px !important;
+        }
+      }
+    }
+
+    .left-section {
+      margin-left: 70px;
+
+      .time-section {
+        font-size: 12px;
+        color: #999997;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 35px;
+      }
+
+      .message-text {
+        font-size: 16px;
+      }
+
+      .message-footer {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 12px;
+
+        span:first-child{
+
+          &:hover {
+            color: #43A5D2;
+            text-decoration: underline;
+          }
+        }
+
+        span:last-child {
+          margin-left: 18px;
+        }
+      }
+    }
+  }
 }

@@ -3,7 +3,7 @@
     <div class="mobileTitle">
       Вопросы - ответы
     </div>
-    <div class="searchBoxContainer">
+    <div class="boxContainer">
       <div class="componentPath">
         <div>Ценообразование в строительстве »<span class="currentName">Вопросы-ответы</span></div>
         <div class="goBack hideOnMobile"><img src="@/assets/icons/triangleLeftIcon.svg" class="m-r-5"> Назад</div>
@@ -148,10 +148,4 @@
     <Pagination />
   </div>
 </template>
-<script>
-export default {
-  routerData: {
-    sdw: true
-  }
-}
-</script>>
+

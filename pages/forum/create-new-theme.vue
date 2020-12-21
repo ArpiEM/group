@@ -3,7 +3,7 @@
     <div class="mobileTitle">
       Создание новой темы
     </div>
-    <div class="searchBoxContainer">
+    <div class="boxContainer">
       <div class="componentPath">
         <div>Ценообразование в строительстве » Вопросы-ответы » <span class="currentName">Новая тема</span>
         </div>
