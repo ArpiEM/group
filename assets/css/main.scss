@@ -69,6 +69,15 @@
   float: right;
 }
 
+.passive{
+  background: rgba(196, 196, 196, 1);
+  border: 3px solid #FFFFFF;
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+  float: right;
+}
+
 .row{
     display: flex;
 }
