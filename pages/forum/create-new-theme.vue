@@ -51,7 +51,19 @@
         </div>
         <div class="container__footer">
           <div class="footer__icon">
-            <icon>ICONS</icon>
+            <img src="@/assets/icons/textFormat/boldIcon.svg">
+            <img src="@/assets/icons/textFormat/italicIcon.svg" class="m-l-30">
+            <img src="@/assets/icons/textFormat/underLineIcon.svg" class="m-l-30">
+            <img src="@/assets/icons/textFormat/cupsLookIcon.svg" class="m-l-30">
+            <img src="@/assets/icons/textFormat/firsLetterIcon.svg" class="m-l-30">
+            <img src="@/assets/icons/textFormat/alignTextRigthIcon.svg" class="m-l-30">
+            <img src="@/assets/icons/textFormat/alignTextCenterIcon.svg" class="m-l-30">
+            <img src="@/assets/icons/textFormat/alignTextLeftIcon.svg" class="m-l-30">
+            <img src="@/assets/icons/textFormat/alignTextFillIcon.svg" class="m-l-30">
+            <img src="@/assets/icons/textFormat/linkIcon.svg" class="m-l-30">
+            <img src="@/assets/icons/textFormat/listIcon.svg" class="m-l-30">
+            <img src="@/assets/icons/textFormat/imageIcon.svg" class="m-l-30">
+            <img src="@/assets/icons/textFormat/emojiIcon.svg" class="m-l-30">
           </div>
           <textarea class="footer__inp" placeholder="Ваш текст">
           </textarea>
