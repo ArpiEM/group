@@ -20,15 +20,17 @@
             <div class="view-person-img m-b-30">
                 <div class="active"></div>
                 <div class="view-arrow-icons-container">
-                    <div class="icon-container"><img src="@/assets/icons/arrowLeftIcon.svg" class="icon"></div>
-                    <div class="icon-container"><img src="@/assets/icons/arrowLeftIcon.svg" class="icon"></div>
+                    <div class="icon-container"><img src="@/assets/icons/arrowLeftIcon.svg" class="icon up"></div>
+                    <div class="icon-container"><img src="@/assets/icons/arrowLeftIcon.svg" class="icon down"></div>
                 </div>
             </div>
             <span class="view-user-name m-b-18">Евгений Ануев</span>
-            <div class="progress__bar"></div>
-            <div class="progress__bar__percent"></div>
-            <div class="progress__bar m-t-8"></div>
-            <div class="progress__bar__percent"></div>
+            <div class="progress__bar">
+              <div class="progress__bar__percent"></div>
+            </div>
+            <div class="progress__bar m-t-8">
+              <div class="progress__bar__percent"></div>
+            </div>
         </div>
         <div class="view-main-content">
             <div class="view-post-header m-b-30">
@@ -59,7 +61,22 @@
     <div class="forum-messages m-t-50">
       <hr class="messages-hr">
       <div class="forum-message">
-        <div style="min-width: 140px"></div>
+        <div class="person-container">
+          <div class="view-person-def m-b-30">
+            <div class="passive"></div>
+            <div class="view-arrow-icons-container">
+              <div class="icon-container"><img src="@/assets/icons/arrowLeftIcon.svg" class="icon up"></div>
+              <div class="icon-container"><img src="@/assets/icons/arrowLeftIcon.svg" class="icon down"></div>
+            </div>
+          </div>
+          <span class="view-user-name m-b-18">Евгений Ануев</span>
+          <div class="progress__bar">
+            <div class="progress__bar__percent"></div>
+          </div>
+          <div class="progress__bar m-t-8">
+            <div class="progress__bar__percent"></div>
+          </div>
+        </div>
         <div class="left-section">
           <div class="time-section">
                 <span>
@@ -89,7 +106,22 @@
         </div>
       </div>
       <div class="forum-message colored">
-        <div style="min-width: 140px"></div>
+        <div class="person-container">
+          <div class="view-person-def m-b-30">
+            <div class="passive"></div>
+            <div class="view-arrow-icons-container">
+              <div class="icon-container"><img src="@/assets/icons/arrowLeftIcon.svg" class="icon up"></div>
+              <div class="icon-container"><img src="@/assets/icons/arrowLeftIcon.svg" class="icon down"></div>
+            </div>
+          </div>
+          <span class="view-user-name m-b-18">Евгений Ануев</span>
+          <div class="progress__bar">
+            <div class="progress__bar__percent"></div>
+          </div>
+          <div class="progress__bar m-t-8">
+            <div class="progress__bar__percent"></div>
+          </div>
+        </div>
         <div class="left-section">
           <div class="time-section">
                 <span>
@@ -116,7 +148,22 @@
         </div>
       </div>
       <div class="forum-message reply">
-        <div style="min-width: 140px"></div>
+        <div class="person-container">
+          <div class="view-person-img m-b-30">
+            <div class="active"></div>
+            <div class="view-arrow-icons-container">
+              <div class="icon-container"><img src="@/assets/icons/arrowLeftIcon.svg" class="icon up"></div>
+              <div class="icon-container"><img src="@/assets/icons/arrowLeftIcon.svg" class="icon down"></div>
+            </div>
+          </div>
+          <span class="view-user-name m-b-18">Евгений Ануев</span>
+          <div class="progress__bar">
+            <div class="progress__bar__percent"></div>
+          </div>
+          <div class="progress__bar m-t-8">
+            <div class="progress__bar__percent"></div>
+          </div>
+        </div>
         <div class="left-section">
           <div class="time-section">
                 <span>
