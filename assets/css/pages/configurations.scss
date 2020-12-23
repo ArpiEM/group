@@ -1,5 +1,5 @@
 .configurations{
-
+  width: 100%;
     .form {
         max-width: 1920px;
     }
@@ -32,8 +32,8 @@
         }
     }
 
-    .container {
-        width: 918px;
+    .container-custom {
+      width: 100%;
         // margin: 406px 280px 766px 363px;
 
         .container-settings {
@@ -54,7 +54,6 @@
         }
         
         .settings-btn {
-            width: 121px;
         }
         
         .settings-btn:focus,.settings-btn:hover {

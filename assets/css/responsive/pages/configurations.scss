@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) {
+  .configurations {
+    .container-custom {
+      .container-settings {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .container-settings-left {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .configurations {
+    .container-custom {
+
+      .save-btn {
+        width: unset;
+        padding: 0 10px;
+      }
+
+      .left {
+        margin-top: 5px;
+        padding: 5px 10px;
+      }
+
+      .inp-label {
+        width: 200px;
+      }
+
+      .container-settings {
+
+        .container-settings-left {
+            flex-wrap: wrap;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

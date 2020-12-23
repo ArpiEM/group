@@ -1,6 +1,6 @@
 <template>
   <div class="form configurations">
-    <div class="container settings">
+    <div class="container-custom settings">
       <div class="container-settings">
         <ConfigurationBtns />
         <div class="container-settings-right">

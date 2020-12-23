@@ -1,6 +1,6 @@
 <template>
     <div class="form configurations">
-        <div class="container">
+        <div class="container-custom">
             <div class="container-settings">
                 <ConfigurationBtns />
                 <div class="container-settings-right">
@@ -31,7 +31,7 @@
                     <input class="describtion-bottom-checkbox" type="checkbox">
                     <span>Форум виден только зарегистрированным пользователям</span>
                 </div>
-            </div>   
+            </div>
         </div>
     </div>
 </template>

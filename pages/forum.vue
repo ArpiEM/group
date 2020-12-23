@@ -1,19 +1,19 @@
 <template>
   <div class="container">
-    <div class="forumTextContainer" v-if="showText">
+    <div class="forumTextContainer">
       <div class="groupHeaderText">Это только временный текст в группах</div>
       <div class="groupDescription">Расскажем, как научиться, в сообщениях группы.</div>
     </div>
-    <div v-else class="squareSection">
+    <!--<div v-else class="squareSection">
       <div></div>
       <div></div>
       <div></div>
       <div></div>
-    </div>
+    </div>-->
     <NavBar/>
     <div class="row w-100 forumBody">
       <nuxt-child/>
-      <RightSection/>
+      <RightSection v-if="showRightSection"/>
     </div>
   </div>
 </template>
@@ -23,8 +23,7 @@
   export default Vue.extend({
     asyncData({route}) {
       return {
-        // showText: route.name === "forum"
-        showText: true // TODO ask question about texts
+        showRightSection: !route.path.includes("configurations")
       }
     },
     watchQuery: true,
