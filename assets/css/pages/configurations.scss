@@ -1,0 +1,120 @@
+.configurations{
+
+    .form {
+        max-width: 1920px;
+    }
+
+    tr:first-child {
+        border: none;
+    }
+        
+    tr{
+        border: none;
+    }
+
+    .container {
+        width: 918px;
+        // margin: 406px 280px 766px 363px;
+
+        .container-settings {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 79px;
+        }
+        
+        .left {
+            background: #f2f2f2;
+            border-radius: 4px;
+            border-style: none;
+            color: #999997;
+            font-size: 17px;
+            height: 42px;
+            padding: 11px 17px;
+            margin-right: 12px;
+        }
+        
+        .settings-btn {
+            width: 121px;
+        }
+        
+        .settings-btn:focus,.settings-btn:hover {
+            color: #ffffff;
+            background: #414141;
+        }
+        
+        .back-btn {
+            border-style: none;
+            background-color: white;
+            color: #999997;
+            font-size: 14px;
+            margin-right: 29px;
+        }
+        
+        .save-btn {
+            background: #43a5d2;
+            border: 1px solid #43a5d2;
+            box-sizing: border-box;
+            border-radius: 4px;
+            color: #ffffff;
+            font-size: 16px;
+            height: 38px;
+            width: 141px;
+        }
+        
+        .container-title {
+            color: #c8c8c8;
+            font-size: 30px;
+            margin-bottom: 69px;
+        }
+
+        .inp-label{
+            width: 260px;
+        }
+        
+        .title-describtion {
+            color: #252525;
+            font-size: 14px;
+        }
+        
+        .top {
+            margin-bottom: 60px;
+        }
+        
+        .inp {
+            border: 1px solid #e3e3e3;
+            box-sizing: border-box;
+            border-radius: 4px;
+            height: 28px;
+            width: 42px;
+            padding: 10px;
+        }
+
+        .describtion-bottom {
+            display: flex;
+            align-items: center;
+        }
+        
+        .describtion-bottom-checkbox:checked {
+            background: rgba(40, 40, 40, 0);
+        }
+        
+        .describtion-bottom-checkbox {
+            height: 21px;
+            width: 21px;
+            margin-right: 8px;
+        }    
+    }
+}
+  
+.container-btn {
+    background: #f2f2f2;
+    border-style: none;
+    border-radius: 4px;
+    color: #43a5d2;
+    font-size: 14px;
+    height: 38px;
+    padding: 11px 39px;
+    width: 227px;
+  }
+  
+
