@@ -21,7 +21,7 @@
           <nuxt-link
             tag="div"
             exact
-            to="forum/configurations/settings"
+            to="/forum/configurations/settings"
             active-class="nav__activeLink"
             class="nav__listItem"
         > 

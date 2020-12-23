@@ -3,13 +3,33 @@
     .form {
         max-width: 1920px;
     }
+    
+    .categories{
+        border: none;
+        box-shadow: none;
 
-    tr:first-child {
-        border: none;
-    }
-        
-    tr{
-        border: none;
+        tr:first-child {
+            border: none;
+        }
+            
+        tr{
+            border: none;
+        }
+
+        .delete{
+            border-bottom: 1px solid #999997;
+            color: #999997;
+            font-size: 14px;
+            margin-left: 18px;
+        }
+
+        .settings-table-icon{
+            background: #F2F2F2;
+            border-radius: 4px;
+            width: 24px;
+            height: 24px;
+            padding: 5px;
+        }
     }
 
     .container {
@@ -104,8 +124,26 @@
             margin-right: 8px;
         }    
     }
+
+    .settings{
+
+        .settings-table-header{
+            // font-family: Roboto;
+            font-weight: 500;
+            font-size: 18px;
+            align-items: flex-end;
+            color: #2F2F2F;
+        }
+
+        tr{
+            border-bottom: 1px solid #F2F2F2;
+        }
+        tr:first-child{
+            border-bottom: 1px solid #F2F2F2;
+        }
+    }
 }
-  
+
 .container-btn {
     background: #f2f2f2;
     border-style: none;

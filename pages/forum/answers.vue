@@ -29,7 +29,7 @@
       </tr>
       <tr>
         <td>
-          <div>
+          <div class="m-b-30">
             <div class="first-row">
               <span class="title">Смета на СМР при упрощёнке (УСН)</span>
               <span class="pageNumbers">[1,2,3...107,108,109]</span>
@@ -45,7 +45,7 @@
       </tr>
       <tr>
         <td>
-          <div>
+          <div class="m-b-30">
             <div class="first-row">
               <span class="title">Установка и разборка инвентарных лесов</span>
               <span class="pageNumbers">[1,2,3...107,108,109]</span>
@@ -61,7 +61,7 @@
       </tr>
       <tr class="specialRow">
         <td>
-          <div>
+          <div class="m-b-30">
             <div class="first-row">
               <span class="title"> Установка и разборка инвентарных лесов</span>
               <span class="pageNumbers">[1,2,3...107,108,109]</span>
@@ -79,7 +79,7 @@
       </tr>
       <tr>
         <td>
-          <div>
+          <div class="m-b-30">
             <div class="first-row">
               <span class="title">Сборники ЕНиР</span>
               <span class="pageNumbers">[1,2,3...107,108,109]</span>
@@ -95,7 +95,7 @@
       </tr>
       <tr>
         <td>
-          <div>
+          <div class="m-b-30">
             <div class="first-row">
               <span class="title">Твердая договорная цена</span>
               <span class="pageNumbers">[1,2,3...107,108,109]</span>
@@ -114,7 +114,7 @@
       </tr>
       <tr>
         <td>
-          <div>
+          <div class="m-b-30">
             <div class="first-row">
               <span class="title">Сборники ЕНиР</span>
               <span class="pageNumbers">[1,2,3...107,108,109]</span>
@@ -130,7 +130,7 @@
       </tr>
       <tr>
         <td>
-          <div>
+          <div class="m-b-30">
             <div class="first-row">
               <span class="title">Установка и разборка инвентарных лесов</span>
               <span class="pageNumbers">[1,2,3...107,108,109]</span>

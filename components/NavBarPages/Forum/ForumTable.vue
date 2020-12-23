@@ -21,7 +21,7 @@
                  <div class="m-r-13">
                     <img src="@/assets/icons/themeNewMessageIcon.svg">
                 </div>
-                 <div>
+                 <div class="m-b-30">
                     <div class="first-row">
                         <img class="m-r-13" src="@/assets/icons/stickyIcon.svg">
                         <span class="title" @click="GoToAnswersPage">Вопросы-ответы</span>
@@ -42,7 +42,7 @@
                  <div class="m-r-13"> 
                     <img src="@/assets/icons/popularThemeIcon.svg">
                 </div>
-                 <div>
+                 <div class="m-b-30">
                     <div class="first-row">
                         <img class="m-r-13" src="@/assets/icons/lockIcon.svg">
                         <span class="title">Подсчет объемов работ</span>
@@ -62,7 +62,7 @@
                  <div class="m-r-13">
                     <img src="@/assets/icons/themeNoMessageIcon.svg">
                  </div>
-                 <div>
+                 <div class="m-b-30">
                     <div class="first-row">
                         <span class="title"> Поправочные коэффициенты</span>
                     </div>
@@ -81,7 +81,7 @@
                  <div class="m-r-13">
                     <img src="@/assets/icons/privateThemeIcon.svg">
                  </div>
-                 <div>
+                 <div class="m-b-30">
                     <div class="first-row">
                       <img class="m-r-13"  src="@/assets/icons/lockIcon.svg">
                         <span class="title">Сводный сметный расчет, Лимитиров...</span> 
@@ -101,7 +101,7 @@
                  <div class="m-r-13">
                     <img src="@/assets/icons/themeNoMessageIcon.svg">
                  </div>
-                 <div>
+                 <div class="m-b-30">
                     <div class="first-row">
                         <span class="title">Элементы сметы </span>
                     </div>
@@ -120,7 +120,7 @@
                  <div class="m-r-13">
                     <img src="@/assets/icons/themeNoMessageIcon.svg">
                  </div>
-                 <div>
+                 <div class="m-b-30">
                     <div class="first-row">
                       <img class="m-r-13" src="@/assets/icons/lockIcon.svg">
                         <span class="title">Методы расчета цены</span>
@@ -140,7 +140,7 @@
                   <div class="m-r-13">
                     <img src="@/assets/icons/themeNoMessageIcon.svg">
                   </div>
-                  <div>
+                  <div class="m-b-30">
                     <div class="first-row">
                       <span class="title">Договор подряда </span>
                     </div>
@@ -176,7 +176,7 @@
                  <div class="m-r-13">
                     <img src="@/assets/icons/themeNoMessageIcon.svg">
                  </div>
-                 <div>
+                 <div class="m-b-30">
                     <div class="first-row">
                       <img class="m-r-13" src="@/assets/icons/stickyIcon.svg">
                         <span class="title">Общестроительные работы</span>
@@ -197,7 +197,7 @@
                  <div class="m-r-13">
                     <img src="@/assets/icons/themeNoMessageIcon.svg">
                  </div>
-                 <div>
+                 <div class="m-b-30">
                     <div class="first-row">
                         <span class="title">Ремонтные работы</span>
                     </div>
@@ -216,7 +216,7 @@
                  <div class="m-r-13">
                    <img src="@/assets/icons/themeNoMessageIcon.svg">
                  </div>
-                 <div>
+                 <div class="m-b-30">
                     <div class="first-row">
                         <span class="title">Монтажные работы</span>
                     </div>
@@ -235,7 +235,7 @@
                  <div class="m-r-13">
                    <img src="@/assets/icons/themeNoMessageIcon.svg">
                  </div>
-                 <div>
+                 <div class="m-b-30">
                     <div class="first-row">
                         <span class="title">Электромонтажные работы</span> 
                     </div>
@@ -254,7 +254,7 @@
                  <div class="m-r-13">
                    <img src="@/assets/icons/themeNoMessageIcon.svg">
                  </div>
-                 <div>
+                 <div class="m-b-30">
                     <div class="first-row">
                         <span class="title">Слаботочные системы</span>
                     </div>
@@ -273,7 +273,7 @@
                  <div class="m-r-13">
                    <img src="@/assets/icons/themeNoMessageIcon.svg">
                  </div>
-                 <div>
+                 <div class="m-b-30">
                     <div class="first-row">
                         <span class="title">Пусконаладочные работы</span>
                     </div>
@@ -292,7 +292,7 @@
                  <div class="m-r-13">
                    <img src="@/assets/icons/themeNoMessageIcon.svg">
                  </div>
-                 <div>
+                 <div class="m-b-30">
                     <div class="first-row">
                         <span class="title">Проектные работы</span>
                     </div>

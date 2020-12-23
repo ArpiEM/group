@@ -15,20 +15,17 @@
         </div>
       </div>
       <h1 class="container-title">Категории</h1>
-      <table class="forumTableContainer m-b-75">
+      <table class="forumTableContainer categories m-b-75">
         <tr>
-          <th>Вопросы - ответы</th>
+          <th></th>
           <th>
-            <img src="@/assets/icons/repliesIcon.svg" />
+            <span>Темы</span>
+          </th>
+          <th>
             <span>Ответы</span>
           </th>
           <th>
-            <img src="@/assets/icons/viewsIcon.svg" />
-            <span>Просмотры</span>
-          </th>
-          <th>
-            <img src="@/assets/icons/autorIcon.svg" />
-            <span>Автор</span>
+            <span>Дата создания</span>
           </th>
           <th></th>
         </tr>
@@ -36,41 +33,29 @@
           <td>
             <div>
               <div class="first-row">
-                <span class="title">Смета на СМР при упрощёнке (УСН)</span>
-                <span class="pageNumbers">[1,2,3...107,108,109]</span>
-              </div>
-              <div class="lastVisit">
-                <span
-                  >Учет НДС в сметах при упрощенной системе
-                  налогообложения</span
-                >
+                <span class="title">Ценообразование в строительстве</span>
               </div>
             </div>
           </td>
           <td>34</td>
           <td>234</td>
-          <td><span class="autor">Елена</span></td>
+          <td>21.05.2020</td>
         </tr>
         <tr>
           <td>
             <div>
               <div class="first-row">
-                <span class="title"
-                  >Установка и разборка инвентарных лесов</span
-                >
-                <span class="pageNumbers">[1,2,3...107,108,109]</span>
+                <span class="title">Работа ПТО</span>
+                <img src="@/assets/icons/penIcon.svg" class="m-l-20" />
+                <span class="delete pointer">Удалить</span>
               </div>
               <div class="lastVisit">
-                <span
-                  >Учет НДС в сметах при упрощенной системе
-                  налогообложения</span
-                >
               </div>
             </div>
           </td>
           <td>34</td>
           <td>234</td>
-          <td><span class="autor">Автор</span></td>
+          <td>21.05.2020</td>
         </tr>
         <tr class="specialRow">
           <td>
@@ -79,15 +64,12 @@
                 <span class="title">
                   Установка и разборка инвентарных лесов</span
                 >
-                <span class="pageNumbers">[1,2,3...107,108,109]</span>
               </div>
             </div>
           </td>
           <td>34</td>
           <td>234</td>
-          <td>
-            <span class="autor">Автор</span>
-          </td>
+          <td>21.05.2020</td>
           <td>
             <img src="@/assets/icons/drugIcon.svg" class="m-r-5" />
           </td>
@@ -96,73 +78,13 @@
           <td>
             <div>
               <div class="first-row">
-                <span class="title">Сборники ЕНиР</span>
-                <span class="pageNumbers">[1,2,3...107,108,109]</span>
-              </div>
-              <div class="lastVisit">
-                <span>Вопросы по ЕНиР задаем здесь</span>
+                <span class="title">Поиск расценок в ГЭСН, ФЕР, ТЕР и пр.</span>
               </div>
             </div>
           </td>
           <td>34</td>
           <td>234</td>
-          <td><span class="autor">Автор</span></td>
-        </tr>
-        <tr>
-          <td>
-            <div>
-              <div class="first-row">
-                <span class="title">Твердая договорная цена</span>
-                <span class="pageNumbers">[1,2,3...107,108,109]</span>
-              </div>
-              <div class="lastVisit">
-                <span>Вопросы про твердую договорную цену задаем здесь</span>
-              </div>
-            </div>
-          </td>
-          <td>34</td>
-          <td>234</td>
-          <td><span class="autor">Автор</span></td>
-          <td>
-            <img src="@/assets/icons/drugIcon.svg" class="m-r-5" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <div>
-              <div class="first-row">
-                <span class="title">Сборники ЕНиР</span>
-                <span class="pageNumbers">[1,2,3...107,108,109]</span>
-              </div>
-              <div class="lastVisit">
-                <span>Вопросы по ЕНиР задаем здесь</span>
-              </div>
-            </div>
-          </td>
-          <td>34</td>
-          <td>234</td>
-          <td><span class="autor">Автор</span></td>
-        </tr>
-        <tr>
-          <td>
-            <div>
-              <div class="first-row">
-                <span class="title"
-                  >Установка и разборка инвентарных лесов</span
-                >
-                <span class="pageNumbers">[1,2,3...107,108,109]</span>
-              </div>
-              <div class="lastVisit">
-                <span
-                  >Учет НДС в сметах при упрощенной системе
-                  налогообложения</span
-                >
-              </div>
-            </div>
-          </td>
-          <td>34</td>
-          <td>234</td>
-          <td><span class="autor">Автор</span></td>
+          <td>21.05.2020</td>
         </tr>
       </table>
     </div>
